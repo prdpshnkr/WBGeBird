@@ -1,12 +1,11 @@
-// Dotenv
-const dotenv = require("dotenv");
-dotenv.config();
-
 // App
 
 const express = require("express");
 const app = express();
 
+// Dotenv
+const dotenv = require("dotenv");
+dotenv.config();
 
 // Cors
 
