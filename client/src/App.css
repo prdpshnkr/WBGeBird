@@ -1,51 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+
 .App {
-  text-align: center;
+  display: flex;
 }
 
-.grid-container {
-  height: 100vh;
-  display: grid;
-  gap: 0.5rem;
-  grid-template-areas: 
-    "left nav nav nav nav nav"
-    "left body body body body right"
-    "left body body body body right"
-    "left body body body body right"
-    "left body body body body right"
-    "left foot foot foot foot foot"
-  ;
-  grid-template-columns: auto 240px auto auto auto 360px;
-  grid-template-rows: auto 100px auto auto auto 100px;
+.container-fluid {
+  padding-left: 0;
 }
-
-.leftbar {
-  grid-area: left;
-  background-color: lightgreen;
-  /* gap: 1rem; */
-}
-
-.navbar {
-  grid-area: nav;
-  background-color: lightpink;
-  /* gap: 1rem; */
-}
-
-.body {
-  grid-area: body;
-  background-color: lightyellow;
-  /* gap: 1rem; */
-}
-
-.rightbar {
-  grid-area: right;
-  background-color: lightgray;
-  /* gap: 1rem; */
-}
-
-.footer {
-  grid-area: foot;
-  background-color: lightsalmon;
-  /* gap: 1rem; */
-}
-
-

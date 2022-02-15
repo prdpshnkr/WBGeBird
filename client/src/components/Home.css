@@ -1,0 +1,8 @@
+.container-fluid {
+    padding: 50px;
+}
+
+.main-body .row .app-name h2 {
+    font-family: 'Redressed', cursive;
+    color: #666;
+  }
